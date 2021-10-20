@@ -1,0 +1,48 @@
+.field {
+  width: 100%;
+  box-sizing: border-box;
+  div {
+    background-color: lightgreen;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .cow {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: 4px dotted deeppink;
+      margin: 10px;
+    }
+    .sheep {
+      height: 100px;
+      width: 100px;
+      border: 4px dotted darkturquoise;
+      margin: 10px;
+    }
+    .horse {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid darkblue;
+      margin: 10px;
+    }
+  }
+  button {
+    color: black;
+    background-color: beige;
+    border-radius: 5%;
+    width: 80px;
+    height: 30px;
+    margin: 4px;
+  }
+  select {
+    margin: 4px;
+    width: 45px;
+    height: 30px;
+    font-size: 17px;
+    color: crimson;
+  }
+}
